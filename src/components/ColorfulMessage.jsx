@@ -8,6 +8,7 @@
 //   return <p style={contentStyleA}>{children}</p>;
 // };
 export const ColorfulMessage = ({ color, children }) => {  // この段階でもオブジェクトの分割代入は使える
+  console.log("--ColorfulMessage--");
   const contentStyleA = {
     color, // ここで省略記法が使われる
     fontSize: '18px',
